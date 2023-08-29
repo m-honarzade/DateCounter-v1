@@ -39,7 +39,7 @@ const Counter = () => {
           +
         </button>
       </div>
-      <div className=" mx-auto font-bold shadow-lg mb-8 border-violet-400 rounded-md border  text-violet-900 py-6 w-[50%]">
+      <div className=" mx-auto text-sm md:text-base font-bold shadow-lg mb-8 border-violet-400 rounded-md border  text-violet-900 py-6 w-[50%]">
         <p>
           {count === 0
             ? `Today is : ${currDate.toDateString()} `
