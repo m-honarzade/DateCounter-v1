@@ -4,7 +4,10 @@ const Counter = () => {
   const [step, setStep] = useState(1);
   const [count, setCount] = useState(0);
   const currDate = new Date();
-  const calcDate = currDate.setDate(currDate.getDate() + count);
+  // console.log(currDate.getDate());
+  currDate.setDate(currDate.getDate() + count);
+  // console.log(calcDate);
+  // console.log(currDate);
   //   currDate.toDateString();
   //   console.log(currDate);
   return (
